@@ -5,7 +5,7 @@ import { IoLogoAndroid } from "react-icons/io";
 import Image from "next/image";
 
 export default function Home() {
-  return (
+    return (
     <>
       <div className="flex h-[60px] items-center justify-center w-full bg-gradient-to-r from-[#773F01] via-[#FAB300] to-[#773F01] absolute top-0">
         <h1 className="text-white">Early access to game download!</h1>
@@ -17,10 +17,12 @@ export default function Home() {
             src={require("../public/goldenlotto.png")}
             className="md:w-[50%]"
           />
-          <Button variant="outline">
-            <IoLogoAndroid size={24} />
-            Download Beta
-          </Button>
+          <a href="https://drive.google.com/file/d/1_Mdzp85UD3bbRAC82upN-fsLumNWPOE-/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+            <button className="border border-white px-4 py-2 flex items-center justify-center text-white bg-transparent rounded-md">
+              <IoLogoAndroid size={24} className="mr-2" />
+              Download Beta
+            </button>
+          </a>
         </div>
       </main>
     </>
