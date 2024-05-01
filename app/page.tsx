@@ -17,7 +17,7 @@ export default function Home() {
             src={require("../public/goldenlotto.png")}
             className="md:w-[50%]"
           />
-          <a href="https://drive.google.com/file/d/1_Mdzp85UD3bbRAC82upN-fsLumNWPOE-/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+          <a href="https://drive.google.com/file/d/1mutCoTHUmA1jgzj-XCU_G6sy76Op2CM8/view?usp=sharing" target="_blank" rel="noopener noreferrer">
             <button className="border border-white px-4 py-2 flex items-center justify-center text-white bg-transparent rounded-md">
               <IoLogoAndroid size={24} className="mr-2" />
               Download Beta
